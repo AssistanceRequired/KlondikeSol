@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="field" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="780.0" style="-fx-background-image: url(&quot;@SetUp/CardBackGround.jpg&quot;);" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="780.0">
+         <image>
+            <Image url="@SetUp/CardBackGround.jpg" />
+         </image>
+      </ImageView>
+      <Pane fx:id="deckfield" prefHeight="200.0" prefWidth="330.0">
+         <children>
+            <ImageView fx:id="wastepile" fitHeight="120.0" fitWidth="100.0" layoutX="140.0" layoutY="60.0">
+               <image>
+                  <Image url="@SetUp/Waste%20Image.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="deckpile" fitHeight="120.0" fitWidth="100.0" layoutX="20.0" layoutY="60.0">
+               <image>
+                  <Image url="@SetUp/Deck%20Image.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="reset" layoutX="33.0" layoutY="22.0" mnemonicParsing="false" onAction="#reset" scaleShape="false" style="-fx-border-radius: 30; -fx-background-color: #a5ffe4;" text="New Game" />
+         </children>
+      </Pane>
+      <Pane fx:id="foundationfield" layoutX="330.0" prefHeight="200.0" prefWidth="450.0">
+         <children>
+            <ImageView fx:id="foundation1" fitHeight="120.0" fitWidth="100.0" layoutX="10.0" layoutY="60.0">
+               <image>
+                  <Image url="@SetUp/Foundation%20Image.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="foundation2" fitHeight="120.0" fitWidth="100.0" layoutX="120.0" layoutY="60.0">
+               <image>
+                  <Image url="@SetUp/Foundation%20Image.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="foundation3" fitHeight="120.0" fitWidth="100.0" layoutX="230.0" layoutY="60.0">
+               <image>
+                  <Image url="@SetUp/Foundation%20Image.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="foundation4" fitHeight="120.0" fitWidth="100.0" layoutX="340.0" layoutY="60.0">
+               <image>
+                  <Image url="@SetUp/Foundation%20Image.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane fx:id="tableaufield" layoutY="200.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="780.0">
+         <children>
+            <ImageView fx:id="tableau1" fitHeight="120.0" fitWidth="100.0" x="10.0" y="15.0">
+               <image>
+                  <Image url="@SetUp/Tableau%20image.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="tableau4" fitHeight="120.0" fitWidth="100.0" x="120.0" y="15.0">
+               <image>
+                  <Image url="@SetUp/Tableau%20image.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="tableau7" fitHeight="120.0" fitWidth="100.0" x="230.0" y="15.0">
+               <image>
+                  <Image url="@SetUp/Tableau%20image.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="tableau6" fitHeight="120.0" fitWidth="100.0" x="340.0" y="15.0">
+               <image>
+                  <Image url="@SetUp/Tableau%20image.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="tableau5" fitHeight="120.0" fitWidth="100.0" x="450.0" y="15.0">
+               <image>
+                  <Image url="@SetUp/Tableau%20image.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="tableau2" fitHeight="120.0" fitWidth="100.0" x="560.0" y="15.0">
+               <image>
+                  <Image url="@SetUp/Tableau%20image.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="tableau3" fitHeight="120.0" fitWidth="100.0" x="670.0" y="15.0">
+               <image>
+                  <Image url="@SetUp/Tableau%20image.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</Pane>
